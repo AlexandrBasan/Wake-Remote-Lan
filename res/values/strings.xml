@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Wake Remote Lan</string>
+	<string name="app_desc">A simple Wake Remote Lan application. Stores history of sent packets to save remembering MAC addresses.</string>
+	<string name="button_wake">Send Wake Packet</string>
+	<string name="button_save">Save &amp; End Editing</string>
+	<string name="button_clear">Clear Form</string>
+	<string name="button_cancel">Cancel Edit</string>
+	<string name="tab_history">History</string>
+	<string name="tab_wake">Wake</string>
+	<string name="title_history">History</string>
+	<string name="title_wake">Wake</string>
+	<string name="title">Reference:</string>
+	<string name="mac">MAC Address:</string>
+	<string name="ip">Host Name / IP Address:</string>
+	<string name="port">Port:</string>
+	<string name="menu_wake">Send Wake Packet</string>
+	<string name="menu_edit">Edit</string>
+	<string name="menu_delete">Remove</string>
+	<string name="menu_sortby">Sort By</string>
+	<string name="menu_lastused">Recent</string>
+	<string name="menu_usedcount">Frequent</string>
+	<string name="menu_created">Created</string>
+	<string name="invalid_mac">Invalid MAC Address</string>
+	<string name="send_failed">Sending Failed</string>
+	<string name="packet_sent">Magic Packet sent</string>
+	<string name="about_label">About</string>
+	<string name="unknow_uri">Unknown URI</string>
+	<string name="bad_port_number">Bad port number</string>
+	<color name="Green">#82c300</color>
+	<color name="White">#ffffff</color>
+	<color name="Black">#000000</color>
+	<color name="Grey">#969793</color>
+	
+<string name="admob_publisher_id">a1519df10c2a43c</string>
+</resources>

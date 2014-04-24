@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Wake Remote Lan</string>
+	<string name="app_desc">Простое приложение позволяющее отправить пакет для загрузки удаленного PC по сети используя MAC адрес.</string>
+	<string name="button_wake">Отправить пакет</string>
+	<string name="button_save">Сохранение &amp; и Редактирование</string>
+	<string name="button_clear">Очистить поля</string>
+	<string name="button_cancel">Отменить</string>
+	<string name="tab_history">История</string>
+	<string name="tab_wake">Отправка пакета</string>
+	<string name="title_history">История</string>
+	<string name="title_wake">Отправка пакета</string>
+	<string name="title">Референция:</string>
+	<string name="mac">MAC адрес:</string>
+	<string name="ip">Имя хоста / IP адрес:</string>
+	<string name="port">Порт:</string>
+	<string name="menu_wake">Отправить пакет на загрузку</string>
+	<string name="menu_edit">Изменить</string>
+	<string name="menu_delete">Удалить</string>
+	<string name="menu_sortby">Сортировка</string>
+	<string name="menu_lastused">Последние</string>
+	<string name="menu_usedcount">Частые</string>
+	<string name="menu_created">Создать</string>
+	<string name="invalid_mac">Неверный MAC адрес</string>
+	<string name="send_failed">Отправка не удалась</string>
+	<string name="packet_sent">Пакет отправлен</string>
+	<string name="about_label">О нас</string>
+	<string name="unknow_uri">Unknown URI</string>
+	<string name="bad_port_number">Неверный порт</string>
+	<color name="Green">#82c300</color>
+	<color name="White">#ffffff</color>
+	<color name="Black">#000000</color>
+	
+<string name="admob_publisher_id">a1519df10c2a43c</string>
+</resources>

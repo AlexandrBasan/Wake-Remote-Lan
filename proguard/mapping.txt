@@ -1,0 +1,69 @@
+com.cbsb.wakelan.History -> com.cbsb.wakelan.a:
+com.cbsb.wakelan.History$Items -> com.cbsb.wakelan.b:
+    android.net.Uri CONTENT_URI -> a
+com.cbsb.wakelan.HistoryAdapter -> com.cbsb.wakelan.c:
+    android.content.Context context -> a
+    android.content.ContentResolver content -> b
+    void bindView(android.view.View,android.content.Context,android.database.Cursor) -> bindView
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+    void setIsStarred(int,int) -> a
+com.cbsb.wakelan.HistoryItem -> com.cbsb.wakelan.d:
+    int id -> a
+    java.lang.String title -> b
+    java.lang.String mac -> c
+    java.lang.String ip -> d
+    int port -> e
+com.cbsb.wakelan.HistoryListHandler -> com.cbsb.wakelan.e:
+    com.cbsb.wakelan.WakeOnLanActivity wol -> a
+    android.database.Cursor cursor -> b
+    com.cbsb.wakelan.HistoryAdapter adapter -> c
+    java.lang.String[] PROJECTION -> d
+    android.widget.ListView view -> e
+    void bind(int) -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    com.cbsb.wakelan.HistoryItem getItem(int) -> b
+    void addToHistory(java.lang.String,java.lang.String,java.lang.String,int) -> a
+    void updateHistory(int,java.lang.String,java.lang.String,java.lang.String,int) -> a
+    void incrementHistory(long) -> a
+    void deleteHistory(int) -> c
+com.cbsb.wakelan.HistoryProvider -> com.cbsb.wakelan.HistoryProvider:
+    java.util.HashMap sHistoryProjectionMap -> a
+    android.content.UriMatcher sUriMatcher -> b
+    com.cbsb.wakelan.HistoryProvider$DatabaseHelper mOpenHelper -> c
+    boolean onCreate() -> onCreate
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+com.cbsb.wakelan.HistoryProvider$DatabaseHelper -> com.cbsb.wakelan.f:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.cbsb.wakelan.MagicPacket -> com.cbsb.wakelan.g:
+    java.lang.String send(java.lang.String,java.lang.String,int) -> a
+    java.lang.String cleanMac(java.lang.String) -> a
+    java.lang.String[] validateMac(java.lang.String) -> b
+com.cbsb.wakelan.WakeOnLanActivity -> com.cbsb.wakelan.WakeOnLanActivity:
+    int _editModeID -> a
+    boolean typingMode -> b
+    boolean isTablet -> c
+    android.widget.TabHost th -> d
+    com.cbsb.wakelan.HistoryListHandler histHandler -> e
+    int sort_mode -> f
+    java.lang.String[] PROJECTION -> g
+    android.widget.Toast notification -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onClick(android.view.View) -> onClick
+    void onTabChanged(java.lang.String) -> onTabChanged
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+    java.lang.String sendPacket(com.cbsb.wakelan.HistoryItem) -> a
+    java.lang.String sendPacket(java.lang.String,java.lang.String,java.lang.String,int) -> a
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void notifyUser(java.lang.String,android.content.Context) -> a
+com.cbsb.wakelan.widget.StarButton -> com.cbsb.wakelan.widget.StarButton:
+    void init(android.content.Context) -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+    void render() -> a

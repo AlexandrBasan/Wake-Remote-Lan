@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/tabhost"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TabWidget
+		    android:id="@android:id/tabs"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" >
+
+		</TabWidget>
+
+		<FrameLayout
+			android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:id="@+id/historyview"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				
+				<ListView 
+					android:id="@+id/history"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+			</LinearLayout>
+			
+			<ScrollView
+				android:id="@+id/wakeview"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+					
+					<TextView
+					    android:id="@+id/reference1"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/title"
+					    android:textColor="@color/Green" />
+
+					<EditText 
+						android:id="@+id/title"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" />
+						
+					<TextView
+					    android:id="@+id/mac1"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/mac"
+					    android:textColor="@color/Green" />
+
+					<EditText 
+						android:id="@+id/mac"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" />
+						
+					<TextView
+					    android:id="@+id/hostname1"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/ip"
+					    android:textColor="@color/Green" />
+
+					<EditText 
+						android:id="@+id/ip"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" />
+						
+					<TextView
+					    android:id="@+id/port1"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/port"
+					    android:textColor="@color/Green" />
+
+					<EditText 
+						android:id="@+id/port"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" />
+					
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="6dp">
+
+						<Button
+							android:id="@+id/clear_wake"
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content" 
+							android:layout_gravity="left"
+							android:text="@string/button_clear" />
+						<Button
+							android:id="@+id/send_wake"
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content" 
+							android:layout_weight="1"
+							android:layout_gravity="right"
+							android:text="@string/button_wake" />
+					</LinearLayout>
+
+				</LinearLayout>
+			</ScrollView>
+
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

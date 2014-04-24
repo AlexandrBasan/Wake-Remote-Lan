@@ -1,0 +1,89 @@
+com.cbsb.wakelan.HistoryProvider
+com.cbsb.wakelan.HistoryProvider: HistoryProvider()
+com.cbsb.wakelan.R$color: int Black
+com.cbsb.wakelan.R$color: int Green
+com.cbsb.wakelan.R$color: int Grey
+com.cbsb.wakelan.R$color: int White
+com.cbsb.wakelan.R$dimen: int font_size
+com.cbsb.wakelan.R$dimen: int list_item_height
+com.cbsb.wakelan.R$drawable: int btn_star_big_off
+com.cbsb.wakelan.R$drawable: int btn_star_big_on
+com.cbsb.wakelan.R$drawable: int ic_menu_info_details
+com.cbsb.wakelan.R$drawable: int ic_menu_preferences
+com.cbsb.wakelan.R$drawable: int ic_menu_sort_alphabetically
+com.cbsb.wakelan.R$drawable: int ical
+com.cbsb.wakelan.R$drawable: int icon
+com.cbsb.wakelan.R$drawable: int wake
+com.cbsb.wakelan.R$id: int about
+com.cbsb.wakelan.R$id: int clear_wake
+com.cbsb.wakelan.R$id: int history
+com.cbsb.wakelan.R$id: int history_row_colon
+com.cbsb.wakelan.R$id: int history_row_ip
+com.cbsb.wakelan.R$id: int history_row_mac
+com.cbsb.wakelan.R$id: int history_row_port
+com.cbsb.wakelan.R$id: int history_row_star
+com.cbsb.wakelan.R$id: int history_row_title
+com.cbsb.wakelan.R$id: int historytitle
+com.cbsb.wakelan.R$id: int historyview
+com.cbsb.wakelan.R$id: int hostname
+com.cbsb.wakelan.R$id: int hostname1
+com.cbsb.wakelan.R$id: int icon
+com.cbsb.wakelan.R$id: int ip
+com.cbsb.wakelan.R$id: int mac
+com.cbsb.wakelan.R$id: int mac1
+com.cbsb.wakelan.R$id: int menu_created
+com.cbsb.wakelan.R$id: int menu_delete
+com.cbsb.wakelan.R$id: int menu_edit
+com.cbsb.wakelan.R$id: int menu_lastused
+com.cbsb.wakelan.R$id: int menu_sortby
+com.cbsb.wakelan.R$id: int menu_sortby_group
+com.cbsb.wakelan.R$id: int menu_usedcount
+com.cbsb.wakelan.R$id: int menu_wake
+com.cbsb.wakelan.R$id: int port
+com.cbsb.wakelan.R$id: int port1
+com.cbsb.wakelan.R$id: int reference
+com.cbsb.wakelan.R$id: int reference1
+com.cbsb.wakelan.R$id: int send_wake
+com.cbsb.wakelan.R$id: int tabhost
+com.cbsb.wakelan.R$id: int title
+com.cbsb.wakelan.R$id: int waketitle
+com.cbsb.wakelan.R$id: int wakeview
+com.cbsb.wakelan.R$layout: int history_row
+com.cbsb.wakelan.R$layout: int main
+com.cbsb.wakelan.R$menu: int history_menu
+com.cbsb.wakelan.R$menu: int main_menu
+com.cbsb.wakelan.R$string: int about_label
+com.cbsb.wakelan.R$string: int app_desc
+com.cbsb.wakelan.R$string: int app_name
+com.cbsb.wakelan.R$string: int bad_port_number
+com.cbsb.wakelan.R$string: int button_cancel
+com.cbsb.wakelan.R$string: int button_clear
+com.cbsb.wakelan.R$string: int button_save
+com.cbsb.wakelan.R$string: int button_wake
+com.cbsb.wakelan.R$string: int invalid_mac
+com.cbsb.wakelan.R$string: int ip
+com.cbsb.wakelan.R$string: int mac
+com.cbsb.wakelan.R$string: int menu_created
+com.cbsb.wakelan.R$string: int menu_delete
+com.cbsb.wakelan.R$string: int menu_edit
+com.cbsb.wakelan.R$string: int menu_lastused
+com.cbsb.wakelan.R$string: int menu_sortby
+com.cbsb.wakelan.R$string: int menu_usedcount
+com.cbsb.wakelan.R$string: int menu_wake
+com.cbsb.wakelan.R$string: int packet_sent
+com.cbsb.wakelan.R$string: int port
+com.cbsb.wakelan.R$string: int send_failed
+com.cbsb.wakelan.R$string: int tab_history
+com.cbsb.wakelan.R$string: int tab_wake
+com.cbsb.wakelan.R$string: int title
+com.cbsb.wakelan.R$string: int title_history
+com.cbsb.wakelan.R$string: int title_wake
+com.cbsb.wakelan.R$string: int unknow_uri
+com.cbsb.wakelan.R$style: int tablet_title
+com.cbsb.wakelan.WakeOnLanActivity
+com.cbsb.wakelan.WakeOnLanActivity: WakeOnLanActivity()
+com.cbsb.wakelan.WakeOnLanActivity: void onClick(android.view.View)
+com.cbsb.wakelan.widget.StarButton
+com.cbsb.wakelan.widget.StarButton: StarButton(android.content.Context)
+com.cbsb.wakelan.widget.StarButton: StarButton(android.content.Context,android.util.AttributeSet)
+com.cbsb.wakelan.widget.StarButton: StarButton(android.content.Context,android.util.AttributeSet,int)
